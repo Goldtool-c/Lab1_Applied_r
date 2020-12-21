@@ -30,8 +30,8 @@ public class MainApplication
     public static void Count(Component comp[])
     {
         System.out.println("Enter Name");
-        Scanner s=new Scanner(System.in);
-        String name=s.nextLine();
+        Scanner d=new Scanner(System.in);
+        String name=d.nextLine();
         try
         {
             NaExc(name);
